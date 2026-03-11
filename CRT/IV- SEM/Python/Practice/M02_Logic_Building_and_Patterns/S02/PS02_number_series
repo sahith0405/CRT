@@ -1,0 +1,64 @@
+# Print numbers from 1 to n
+# n = int(input())
+# for i in range(1,n):
+#     print(i)
+
+# Print even numbers from 0 to n
+# n = int(input())
+# for i in range(0,n+1,2):
+#     print(i)
+
+#print odd numbers from 1 to n
+# n = int(input())
+# for i in range(1,n+1,2):
+#     print(i) 
+
+
+# Print Fibonacci series up to n terms
+# n1 = 0
+# n2 = 1
+# n = int(input())
+# for i in range(n):
+#     print(n1)
+#     n3 = n1 + n2
+#     n1 = n2
+#     n2 = n3
+
+
+# Print multiplication table of n
+# n = int(input())
+# for i in range(1,11,1):
+#     print(n , "*" , i , "=" , n * i)
+
+# Print squares of numbers from 0 to n
+# n = int(input())
+# for i in range(n+1):
+#     print(i ** 2)
+#     print(i ** 3)
+
+# # Print alternate positive and negative numbers from 1 to n
+# n = int(input())
+# for i in range(1,n+1):
+#     if i % 2 == 0:
+#         print(-1 * i)
+#     else:
+#         print("",i)    
+
+# 1,2,4,7,11,16,22,...
+# n = int(input())
+# a = 1
+# b = 0
+# for i in range(n):
+#     b = b + 1
+#     a = a + b
+#     print(a)
+
+
+# Factorial series up to n
+# 1,2,6,24,120,720,...
+# n = int(input())
+# a = 1
+# for i in range(n):
+#     a *= (i + 1)
+#     print(a)
+
